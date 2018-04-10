@@ -49,11 +49,6 @@ begreppet, tänk "fri" som i "yttrandefrihet", inte som i
 - [2017] FOSS användning uppskattat till 94\% 
 
 
-# Linux är ett FOSS-projekt och  har hållt på ett tag
-
-![](bilder/distroTimeline.png)
-
-
 
 # The Open Source Definition (by OSI)
 
@@ -69,6 +64,13 @@ begreppet, tänk "fri" som i "yttrandefrihet", inte som i
 10. License Must Be Technology-Neutral
 
 
+# FOSS diskuteras flitigt!
+
+\center
+
+**FRI eller ÖPPEN mjukvara?**
+
+
 # FOSS är **VÄLDIGT** vanligt!
 
 - Apache web server
@@ -82,6 +84,11 @@ begreppet, tänk "fri" som i "yttrandefrihet", inte som i
 - MySQL
 - MediaWiki (Wikipedia, virtwiki)
 - Android
+
+# Linux är ett FOSS-projekt och  har hållt på ett tag
+
+![](bilder/distroTimeline.png)
+
 
 
 
@@ -113,11 +120,6 @@ Licensen!
 \bco
 \co
 
-\red Förslag: \wi Läs EULA någon gång!
-
-```
-
-```
 
 \sg FOSS licenser finns i två typer \wi
 
@@ -227,27 +229,15 @@ Exempel:  **PyQt**
 
 
 
-# Tankarna bakom FOSS
-
-## Jag behöver denna funktion
-
-## kanske andra också behöver den?
-
-## Med FOSS-licens kan jag dela med mig och få ta del av andras tillägg
-
-## Vi hjälper varandra
-
-
-
 
 # FOSS som kan vara användbara:
 
-- Octave
-- Libre Office
-- Python
-- GIMP
-- Blender
-- 
+- [Octave](https://www.gnu.org/software/octave/)
+- [Libre Office](https://www.libreoffice.org/)
+- [Python](https://www.python.org/)
+- [GIMP](https://www.gimp.org/)
+- [Blender](https://www.blender.org/)
+- \ldots
 
 # Annan viktig FOSS programvara
 
@@ -266,6 +256,17 @@ Exempel:  **PyQt**
 
 Image by Jurgen Appelo - www.noop.nl
 \eco
+
+
+# Vi använder mycket FOSS
+
+Denna presentation t.ex. är skapad med FOSS
+
+- emacs
+- markdown
+- pandoc
+- latex/beamer
+
 
 
 # Swerea KIMAB har utvecklat FOSS
@@ -317,6 +318,7 @@ Image by Jurgen Appelo - www.noop.nl
 - Ingen försöker aktivt hindra dig
 
 
+
 # Varför är FOSS SÅ populärt som det är?
 
 - Frihet
@@ -361,10 +363,24 @@ formed around that."*
 ![](bilder/blenderInvolve.png)
 
 
+# Tankarna bakom FOSS
+
+- Jag behöver denna funktion
+
+- kanske andra också behöver den?
+
+- Med FOSS-licens kan jag dela med mig och få ta del av andras tillägg
+
+- Vi hjälper varandra
+
+
+
 
 # Använd FOSS!
 
 Använd **INTE** \sg *Freeware!* \wi - Ofta skadliga program!
+
+
 
 
 # Tack för att ni lyssnade

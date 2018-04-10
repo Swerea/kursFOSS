@@ -39,19 +39,21 @@ Aldin Delic       | [aldin.delic@swerea.se](mailto:aldin.delic@swerea.se)
 # Agenda  Dag 1   (10-18)
 
 -  09-10 : Kaffe och uppsamling
--  10-12 : Introduktion till FOSS
+-  10-11 : Introduktion till FOSS
 	- licenser
 	- tankar bakom existensen av FOSS
 	- exempel
+-  11-12 : Start och information av kursmiljö
+	
 -  12-13 : Lunch
--  13-15 : Start och information av kursmiljö
+-  13-14 : Start och information av kursmiljö
 	- start av USB på medhavd eller lånad dator
 	- Linux intro & genomgång av miljön
--  15-16 : Kaffe och telefonstund
--  16-18 : Översikt och användning av programvara
+-  14-18 : Översikt och användning av programvara
 	- Programmen i kursen
 	- filformat
 	- CAD-verktyg med övning
+-  15-16 : Kaffe och telefonstund
 
 Middag
 

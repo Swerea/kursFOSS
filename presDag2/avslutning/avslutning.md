@@ -68,6 +68,42 @@ visualization application.
 - [git](https://git-scm.com/)
 
 
+# [CAE Linux](http://caelinux.com/CMS/index.php)
+
+\bco
+\co
+
+Finite Element simulation:
+
+- Salome-Meca 2017 
+- Code-Aster 13.4 FEA (MPI version)
+- Elmer FEM multiphysics
+- Calculix with CalculixLauncher GUI
+
+Computational fluid dynamics:
+
+- Code Saturne 5 
+- HelyXOS GUI with OpenFOAM CFD 
+- Javafoil, XLFR5, XFoil
+
+\co 
+
+CAD/CAM & Electronics
+
+- Freecad with Openscad & FEA module
+- LibreCAD / Inkcape for 2D drawings
+- CAM preprocessors
+
+Mathematics, Scientific tools
+
+- Octave, Scilab, R, wxMaxima, Python, Gnu compilers
+- Latex & Texmaker
+- Libre Office suite
+- Jabref literature database manager
+
+\eco
+
+
 # Generiska mejllistor:
 
 - [It's FOSS](https://itsfoss.com/)
