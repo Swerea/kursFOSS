@@ -35,11 +35,11 @@
 ###Part Design
 * Skapa sketch - Välj Workbench Part Design. Klicka New Sketch
 
-![createsketch](sketchcreate.png){width=400px}
+![Skapa sketch](sketchcreate.png){width=400px}
 
 * Rita fyra cirklar med linjer emellan
 
-![circlesnlines](circlesNlines.png){width=400px}
+![cirklar med linjer](circlesNlines.png){width=400px}
 
 * Trimma de yttre cirklarna
 
@@ -47,7 +47,7 @@
 
 * Inför "hjälplinjer"
 
-![construction](construction.png){width=400px}
+![hjälplinjer](construction.png){width=400px}
 
 * Sätt constraints
 
@@ -55,7 +55,7 @@
 
 * Extrudera (Pad)
 
-![pad](pad.png){width=400px}
+![Extrudera](pad.png){width=400px}
 
 ###Part
 * Fillet
@@ -65,11 +65,11 @@
 ###FEM
 * Ny mesh
 
-![mesh](mesh0.16.png){width=400px}
+![Ny mesh](mesh0.16.png){width=400px}
 
 * Ny Analys
 
-![analys](analys.png){width=400px}
+![Ny Analys](analys.png){width=400px}
 
 * Material
 
@@ -81,7 +81,7 @@
 
 * Lös (flytta meshen till analysen)
 
-![solve](solve.png){width=400px}
+![Lös](solve.png){width=400px}
 
 * Post
 
@@ -100,4 +100,4 @@
 ###Python Exempel
 Skapat en svets från uppmätt svetsgeometri
 
-![loft](loft.png)
+![Svets](loft.png)
