@@ -1,9 +1,12 @@
 #Calculix
 ##Vad är Calculix?
+* Skapat av Guido Dhondt (Finite Element Solver) och 
+Klaus Wittig(Pre- and Postprocessor)
 * Generell FEM-lösare
 * Begränsad Pre- och Postprocessor
 * Samma syntax som Abaqus
 * Multi cpu
+* GPLv2 eller senare
 ##Vad är inte Calculix?
 * Ej stöd för skalelement
 * Inte AbaqusCAE
@@ -13,7 +16,9 @@ Vevstaken från igår
 * Ändra fortran-filerna i /usr/local/CalculiX/src/
 * Kompilera om
 ##Dokumentation
-* Maillista
-* www
+* groups.yahoo.com/neo/groups/calculix/info
+* www.dhondt.de/
 ##Exempel
-* FAME
+* FAME github.com/Swerea/FAME
+* git clone --recursive https://github.com/swerea/FAME.git
+![anim](animation.gif)

@@ -2,7 +2,6 @@
 ##Introduktion
 * Rotera - mitten och vänster musknapp
 * Workbenches styr vilka knappar som finns tillgängliga
-* Dokumentation
 
 ##Vad kan Freecad
 * Importera/exportera stl,step,iges...
@@ -12,14 +11,20 @@
 * Python gränssnitt
 ![python](python.png)
 * Batch-körningar
-    freecadcmd-daily hello.py <br>
+    freecadcmd hello.py <br>
     hello!
 
 
 ##Vad kan inte Freecad
 * Importera Catia-filer
 * Assemblera
+* Inte så bra på långa beroendekedjor
 
+##Filformat
+* IGES - funkar sådär
+* STEP -ISO 10303-21 Riktigt bra
+* .catpart etc. inte alls!
+* .stl - lista med facetter. Inga features
 
 ##Övning
 ###Part Design
@@ -39,6 +44,7 @@
 ###Part
 * Fillet
 ![fillet](fillet.png)
+
 ###FEM
 * Ny mesh
 ![mesh](mesh0.16.png)
@@ -52,3 +58,13 @@
 ![solve](solve.png) 
 *Post
 ![post](post.png)
+
+##Python
+* Skriv direkt i "Python Console"
+* Exekvera en fil execfile("your_path_to_script")
+* Kör utan GUI 
+    $freecadcmd filename.py
+
+###Python Exempel
+Skapat en svets från uppmätt svetsgeometri
+![loft](loft.png)
