@@ -1,0 +1,29 @@
+#parameters
+valu width 3
+valu height 2
+    
+#points
+pnt p1 0 0 0  
+pnt p2 width 0 0
+pnt p3 width height 0
+pnt p4 0 height 0  
+
+#lines
+line l1 p1 p2 12
+line l2 p2 p3 12
+line l3 p3 p4 12
+line l4 p4 p1 12
+
+surf surf l1 l2 l3 l4
+
+seta surf s surf
+
+#set element type
+elty surf qu4e
+
+#mesh
+mesh all
+
+#export
+send all abq
+send all abq names

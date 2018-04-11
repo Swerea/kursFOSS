@@ -5,20 +5,128 @@ Klaus Wittig(Pre- and Postprocessor)
 * Generell FEM-lösare
 * Begränsad Pre- och Postprocessor
 * Samma syntax som Abaqus
-* Multi cpu
+* Multi-cpu
 * GPLv2 eller senare
+* Jättebra!
+
 ##Vad är inte Calculix?
-* Ej stöd för skalelement
 * Inte AbaqusCAE
+* Ej stöd för skalelement
+
+##Installation
+* Finns i CAE linux
+* Binär i Ubuntus launchpad
+* Bygg från källkod. Företrädelsevid m.h.a. CalculiX_install.sh
+
+##Preprocessor
+
+###Titta på inputfilen
+   \$kursFOSS/presDag2/CCX$ cgx -c conrod.inp 
+![cgx](cgx.png){width=200px}
+
+##Skapa med CGX
+
+Funkar ungefär som Ansys - Punkter, Linjer, Ytor, Volymer
+
+###Ex.
+    $cgx -b simple.fbd
+
+    #parameters
+    valu width 3
+    valu height 2
+        
+    #points
+    pnt p1 0 0 0  
+    pnt p2 width 0 0
+    pnt p3 width height 0
+    pnt p4 0 height 0  
+    
+    #lines
+    line l1 p1 p2 12
+    line l2 p2 p3 12
+    line l3 p3 p4 12
+    line l4 p4 p1 12
+    
+    #surface
+    surf surf l1 l2 l3 l4
+    
+    #set
+    seta surf s surf
+    
+    #set element type
+    elty surf qu4e
+    
+    #mesh
+    mesh all
+    
+    #export input files
+    send all abq
+    send all abq names
+
+
 ##Övning
-Vevstaken från igår
-##Användar-sub-rutiner
+Vevstaken från igår conrod.inp
+
+###Exekvering
+   $export OMP_NUM_THREADS=4
+
+   $ccx conrod
+
+##Filer
+* .sta - Conv.-info (som Abaqus)
+* .frd - Resultatdatabasen (jmf .odb). (*NODE PRINT)
+* .dat - Utdata (*NODE FILE)
+
+
+##Postprocessing
+$cgx conrod.frd
+
+![mises](mises.png){width=200px}
+
+##Använda sub-rutiner
 * Ändra fortran-filerna i /usr/local/CalculiX/src/
 * Kompilera om
+
+    $cd /usr/local/CalculiX/ccx_2.13/src
+    
+    $make -f Makefile_MT-local
+    
+    $make -f Makefile_MT-local install
+
+##Skillnader Abaqus / Calculix
+\bco
+\co
+_ABAQUS_
+
+C3D8RT
+
+Parts / instances
+
+Töjningsfri elementaktivering
+\co
+_CalculiX_
+
+C3D8R
+
+Alla nummer är globala
+
+Endast inofficiellt
+\eco
+
+
+
 ##Dokumentation
 * groups.yahoo.com/neo/groups/calculix/info
 * www.dhondt.de/
+
 ##Exempel
-* FAME github.com/Swerea/FAME
+* FAME (Free Additive Manufacturing Enhancer)
+* github.com/Swerea/FAME
 * git clone --recursive https://github.com/swerea/FAME.git
-![anim](animation.gif)
+\bco
+\co
+![num](nominal.png){width=200px}
+\co
+![def](def.png){width=200px}
+\eco
+

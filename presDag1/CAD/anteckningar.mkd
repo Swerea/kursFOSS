@@ -1,5 +1,6 @@
 #Freecad
 ##Introduktion
+* Pågående utveckling, senaste v0.17
 * Rotera - mitten och vänster musknapp
 * Workbenches styr vilka knappar som finns tillgängliga
 
@@ -7,64 +8,96 @@
 * Importera/exportera stl,step,iges...
 * Skapa parametriserade geometrier
 * Mäta
-* Lättare FEM mha Calculix
+* Enklare FEM mha Calculix (utvecklats på senare tid)
 * Python gränssnitt
-![python](python.png)
+
+![python](python.png){width=400px}
+
 * Batch-körningar
-    freecadcmd hello.py <br>
+    
+    $freecadcmd hello.py
+    
     hello!
 
 
 ##Vad kan inte Freecad
 * Importera Catia-filer
-* Assemblera
+* Assemblera (utvecklingen verkar ha somnat här)
 * Inte så bra på långa beroendekedjor
 
 ##Filformat
 * IGES - funkar sådär
-* STEP -ISO 10303-21 Riktigt bra
+* STEP - (ISO 10303-21) Riktigt bra
 * .catpart etc. inte alls!
 * .stl - lista med facetter. Inga features
 
 ##Övning
 ###Part Design
 * Skapa sketch - Välj Workbench Part Design. Klicka New Sketch
-![createsketch](sketchcreate.png)
+
+![createsketch](sketchcreate.png){width=400px}
+
 * Rita fyra cirklar med linjer emellan
-![circlesnlines](circlesNlines.png)
+
+![circlesnlines](circlesNlines.png){width=400px}
+
 * Trimma de yttre cirklarna
-![trimma](trimma.png)
+
+![trimma](trimma.png){width=400px}
+
 * Inför "hjälplinjer"
-![construction](construction.png)
+
+![construction](construction.png){width=400px}
+
 * Sätt constraints
-![constraints](constraints.png)
+
+![constraints](constraints.png){width=400px}
+
 * Extrudera (Pad)
-![pad](pad.png)
+
+![pad](pad.png){width=400px}
 
 ###Part
 * Fillet
-![fillet](fillet.png)
+
+![fillet](fillet.png){width=400px}
 
 ###FEM
 * Ny mesh
-![mesh](mesh0.16.png)
+
+![mesh](mesh0.16.png){width=400px}
+
 * Ny Analys
-![analys](analys.png)
+
+![analys](analys.png){width=400px}
+
 * Material
-![material](material.png)
+
+![material](material.png){width=400px}
+
 * Create FEM constraint
-![bc](bc.png)
+
+![bc](bc.png){width=400px}
+
 * Lös (flytta meshen till analysen)
-![solve](solve.png) 
-*Post
-![post](post.png)
+
+![solve](solve.png){width=400px}
+
+* Post
+
+![post](post.png){width=400px}
 
 ##Python
 * Skriv direkt i "Python Console"
-* Exekvera en fil execfile("your_path_to_script")
+* Exekvera en fil 
+
+   \>>> execfile("your_path_to_script")
+    
 * Kör utan GUI 
+
     $freecadcmd filename.py
 
 ###Python Exempel
 Skapat en svets från uppmätt svetsgeometri
+
 ![loft](loft.png)
