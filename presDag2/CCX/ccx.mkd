@@ -1,0 +1,19 @@
+#Calculix
+##Vad är Calculix?
+* Generell FEM-lösare
+* Begränsad Pre- och Postprocessor
+* Samma syntax som Abaqus
+* Multi cpu
+##Vad är inte Calculix?
+* Ej stöd för skalelement
+* Inte AbaqusCAE
+##Övning
+Vevstaken från igår
+##Användar-sub-rutiner
+* Ändra fortran-filerna i /usr/local/CalculiX/src/
+* Kompilera om
+##Dokumentation
+* Maillista
+* www
+##Exempel
+* FAME
