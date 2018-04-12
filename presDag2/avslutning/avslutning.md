@@ -143,16 +143,12 @@ Eller för att få en enklare installation:
 
 - Hämta Xubuntu 16.04 LTS [https://xubuntu.org/](https://xubuntu.org/)
 - Bränn till sticka (står på internet) och Installera
-- Kopiera CAELinuxRepositories.list till /etc/apt/sources.list.d
-- och kör:
+- Kör kommandona i filen här i mappen.
+	- kommandon-for-installation
+- Installera synaptic
+- Öppna synaptic och installera allt du vill ha..
 
-```bash
-$> sudo apt update
-$> sudo apt upgrade
-$> sudo apt install synaptic
-```
 
-Öppna synaptic och välj de program ni vill installera
 
 Klart!
 
