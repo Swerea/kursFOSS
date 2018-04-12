@@ -7,7 +7,7 @@
 
 - Xubuntu 16.04
 - Med programvara
-	- LibreCAD
+	- FreeCAD
 	- Salome-Meca
 	- CalculiX
 

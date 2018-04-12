@@ -134,6 +134,26 @@ Vem som helst kan starta ett FOSS projekt! Bara att sätta igång!
 - Skapa projekt 
 	- Tagga med FOSS licens (det är gratis då)
 
+
+# Om CAElinux-stickan
+
+Om ni installerar från stickan så starta Xubuntu när ni får valet.
+
+Eller för att få en enklare installation:
+
+- Hämta Xubuntu 16.04 LTS [https://xubuntu.org/](https://xubuntu.org/)
+- Bränn till sticka (står på internet) och Installera
+- Kopiera CAELinuxRepositories.list till /etc/apt/sources.list.d
+- och kör:
+
+```bash
+$> sudo apt update
+$> sudo apt upgrade
+$> sudo apt install synaptic
+```
+
+Öppna synaptic och välj de program ni vill installera
+
 Klart!
 
 
