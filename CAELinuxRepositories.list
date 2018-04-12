@@ -1,0 +1,28 @@
+### CAELINUX ADDONS ### 
+
+## Laggs i /etc/apt/sources.list.d/
+## For att fa tillgang till manga av de paket som anvands
+
+## OPENFOAM
+deb http://dl.openfoam.org/ubuntu xenial main
+# deb-src http://dl.openfoam.org/ubuntu bionic main
+
+## GERRIS
+deb http://download.opensuse.org/repositories/home:/popinet/xUbuntu_16.04 ./
+
+## Elmer
+deb http://ppa.launchpad.net/elmer-csc-ubuntu/elmer-csc-ppa/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/elmer-csc-ubuntu/elmer-csc-ppa/ubuntu xenial main
+
+## FreeCAD
+deb http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu xenial main
+
+## 
+deb http://ppa.launchpad.net/neomilium/heekscnc-devel/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/neomilium/heekscnc-devel/ubuntu xenial main
+
+## Octave stable
+deb http://ppa.launchpad.net/octave/stable/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/octave/stable/ubuntu xenial main
+
